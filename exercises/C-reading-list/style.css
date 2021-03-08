@@ -152,6 +152,21 @@ body {
   background: #87ca8a;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: calc(100% - 41px);
+}
+
+li {
+  padding: 10px;
+  margin: 15px;
+  min-width: 350px;
+  width: calc(25% - 30px);
+}
+
 @media screen and (min-width: 992px) {
   .navbar-brand > img {
     max-height: 80px;
