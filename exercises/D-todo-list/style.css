@@ -16,6 +16,24 @@ body {
   margin-top: 4em;
 }
 
+.visible {
+  text-decoration: line-through;
+
+}
+
+ul {
+  margin: 100px;
+}
+li {
+  
+  color: blueviolet;
+  font-weight: 300;
+  list-style: decimal;
+  line-height: 55px;
+  text-align: left;
+  cursor: pointer;
+}
+
 .site-footer p {
   border-top: 1px solid #dccdc6;
   padding-top: 2em;
